@@ -21,7 +21,7 @@ class Main extends Component {
         return (
             <div>
                 <Navbar dark color="primary">
-                    <div className="container">
+                    <div className="container">git
                         <NavbarBrand href="/">NuCamp</NavbarBrand>
                     </div>
                 </Navbar>
