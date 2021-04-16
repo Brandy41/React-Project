@@ -12,7 +12,7 @@ function RenderCampsite({campsite}) {
                 </Card>
                 </div>
             );
-        g}
+        }
 
   function CampsiteInfo(props) {
         if (props.campsite) {
