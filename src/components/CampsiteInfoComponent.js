@@ -2,9 +2,7 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function RenderCampsite({campsite}) {        
-        return (<div className="container">
-            <div className="row">
-                <div className="col-md-5 m-1">
+        return (<div className="col-md-5 m-1">
                 <Card>
                     <CardImg top src={campsite.image} alt={campsite.name} />
                     <CardBody>
@@ -13,10 +11,8 @@ function RenderCampsite({campsite}) {
                     </CardBody>
                 </Card>
                 </div>
-            </div>
-        </div>
-        );
-    }
+            );
+        g}
 
   function CampsiteInfo(props) {
         if (props.campsite) {
